@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:text="Linear Layout Tutorial"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F301FF"
+        android:textSize="30sp"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sacred_geomtry"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change to Green"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:id="@+id/btnBlue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change to Blue" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
